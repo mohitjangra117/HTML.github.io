@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        h1{
+            text-align: center;
+        }
+      
+        .form{
+        display: flex;
+      }
+
+        .div{display: flex;
+            background-color: blanchedalmond;
+            border:2px solid black;
+            align-items: center;
+            justify-content: center;  
+        }
+     
+        input,textarea,select{ 
+            padding: 2px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> <a href="index.html" > Back</a>  </h1>
+    <h1>
+        Registration Page
+    </h1>
+    <div class="div" >
+    <div class="form" >
+    <form>
+        First Name :  <input type="text" placeholder="">  
+        Last Name  :  <input type="text" > <br> 
+        Username   : <input type="text" > 
+        E-mail     : <input type="email" ><br>
+        Gender     :
+
+           <input type="radio" name="Gender" value="Male" >Male
+           <input type="radio" name="Gender" value="Female" >Female
+           <input type="radio" name="Gender" value="Other" >Other
+ <br>
+          Languages: 
+          <input type="checkbox" name="checkbox" value="English" >English 
+          <input type="checkbox" name="checkbox" value="Hindi" > Hindi
+          <input type="checkbox" name="checkbox" value="French" > French
+<br>
+        Branch: 
+        <select>
+            <option value="cs"> CS </option>
+            <option value="cse"> CSE </option>
+            <option value="cs-ds"> CS-DS </option>
+            <option value="cs-aiml"> CS-AIML </option>
+        </select>
+        <br>
+        <textarea placeholder="Feedback"></textarea>
+        <input type="submit" value="submit" >
+        <input type="reset" value="reset">
+          </form>
+        </div>
+    </div>
+</body>
+
+</html>
